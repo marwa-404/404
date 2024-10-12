@@ -24,11 +24,11 @@ subprocess.call('git pull', shell=True)
 
 bit = platform.architecture()[0]
 if bit == '64bit':
-    print("\nCongratulations! Your device supports this tool.")
+    print("\n64 bit Congratulations! Your device supports this tool.")
     from DARK import menu___
     menu___()
 elif bit == '32bit':
-    print("\nCongratulations! Your device supports this tool.")
+    print("\n32 bit Congratulations! Your device supports this tool.")
     from DARK32 import menu___
     menu___()
 else:
